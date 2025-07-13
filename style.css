@@ -131,7 +131,7 @@ nav {
     width: 32vh;
     border: black 2px solid;
     border-radius: 50%;
-    background-image: url(Images/Debottam\ Mukherjee\ DP.jpg);
+    background-image: url(Images/Debottam\ Mukherjee\ Official.jpg);
     background-size: cover;
     background-position: center;
     animation: ani_two alternate 2s infinite;
@@ -358,7 +358,7 @@ nav {
     border: #cf23cf 4px solid;
     height: 19vh;
     width: 19vh;
-    background-image: url(Images/c&c++.jpeg);
+    background-image: url(Images/react.png);
     background-size: cover;
     border-radius: 50%;
 }
@@ -367,7 +367,7 @@ nav {
     border: #cf23cf 4px solid;
     height: 19vh;
     width: 19vh;
-    background-image: url(Images/python.webp);
+    background-image: url(Images/c&c++.jpeg);
     background-size: cover;
     border-radius: 50%;
     background-size: cover;
@@ -377,7 +377,7 @@ nav {
     border: #cf23cf 4px solid;
     height: 19.4vh;
     width: 19vh;
-    background-image: url(Images/java-logo.png);
+    background-image: url(Images/python.webp);
     background-size: cover;
     border-radius: 50%;
 }
@@ -386,7 +386,25 @@ nav {
     border: #cf23cf 4px solid;
     height: 19vh;
     width: 19vh;
-    background-image: url(Images/react.png);
+    background-image: url(Images/java-logo.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.skill-image-6 {
+    border: #cf23cf 4px solid;
+    height: 19vh;
+    width: 19vh;
+    background-image: url(Images/springboot.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.skill-image-7 {
+    border: #cf23cf 4px solid;
+    height: 19vh;
+    width: 19vh;
+    background-image: url(Images/MySQL.png);
     background-size: cover;
     border-radius: 50%;
 }
