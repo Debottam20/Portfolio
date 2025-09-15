@@ -439,11 +439,12 @@ nav {
 
 .project-1,
 .project-2,
-.project-5,
 .project-3,
 .project-4,
+.project-5,
 .project-6,
-.project-7 {
+.project-7,
+.project-8 {
     border: #02ff2c 2px solid;
     margin: 4vh 0vh 4vh;
     padding: 4vh;
@@ -479,7 +480,8 @@ nav {
 .project-4 p,
 .project-5 p,
 .project-6 p,
-.project-7 p {
+.project-7 p,
+.project-8 p {
     font-family: cursive;
 }
 
@@ -704,6 +706,40 @@ nav {
 }
 
 .project-7 button:hover {
+    cursor: pointer;
+    box-shadow: 0vh 0vh 2vh blue;
+}
+
+.fri-man {
+    border: 4px solid rgb(255, 255, 255);
+    background-image: url(Images/FriendManager.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+    min-width: 30.8vh;
+    height: auto;
+    width: auto;
+    border-radius: 2vh;
+}
+
+.project-8 h5 {
+    color: rgb(0, 221, 255);
+    margin: 2vh;
+    text-decoration: underline;
+}
+
+.project-8 button {
+    margin: 3vh 0vh 3vh;
+    padding: 1vh;
+    font-size: 0.8em;
+    font-weight: 900;
+    border-radius: 3vh;
+    background-color: #02ff2c;
+    transition: all 0.5s ease-in-out;
+    font-family: cursive;
+}
+
+.project-8 button:hover {
     cursor: pointer;
     box-shadow: 0vh 0vh 2vh blue;
 }
