@@ -904,3 +904,9 @@ nav {
     font-size: 1.6em;
     color: #ff00ff;
 }
+
+@media(max-width: 768px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+}
