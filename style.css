@@ -444,7 +444,8 @@ nav {
 .project-5,
 .project-6,
 .project-7,
-.project-8 {
+.project-8,
+.project-9 {
     border: #02ff2c 2px solid;
     margin: 4vh 0vh 4vh;
     padding: 4vh;
@@ -462,6 +463,18 @@ nav {
     animation: ani_two alternate 2s infinite;
 }
 
+.project-1 p,
+.project-2 p,
+.project-3 p,
+.project-4 p,
+.project-5 p,
+.project-6 p,
+.project-7 p,
+.project-8 p,
+.project-9 p {
+    font-family: cursive;
+}
+
 .to-do {
     border: 4px solid yellow;
     background-image: url(Images/TO_DO\ LIST\ APP.png);
@@ -474,16 +487,6 @@ nav {
     border-radius: 4vh;
 }
 
-.project-1 p,
-.project-2 p,
-.project-3 p,
-.project-4 p,
-.project-5 p,
-.project-6 p,
-.project-7 p,
-.project-8 p {
-    font-family: cursive;
-}
 
 .project-1 h5 {
     color: rgb(1, 255, 1);
@@ -648,7 +651,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 20vh;
-    min-width: 30.8vh;
+    min-width: 45vh;
     height: auto;
     width: auto;
     border-radius: 2vh;
@@ -716,7 +719,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 20vh;
-    min-width: 30.8vh;
+    min-width: 45vh;
     height: auto;
     width: auto;
     border-radius: 2vh;
@@ -743,6 +746,42 @@ nav {
     cursor: pointer;
     box-shadow: 0vh 0vh 2vh blue;
 }
+
+
+.carequeue {
+    border: 4px solid rgb(255, 255, 255);
+    background-image: url(Images/CareQueue.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+    min-width: 40vh;
+    height: auto;
+    width: auto;
+    border-radius: 2vh;
+}
+
+.project-9 h5 {
+    color: rgb(18, 231, 43);
+    margin: 2vh;
+    text-decoration: underline;
+}
+
+.project-9 button {
+    margin: 3vh 0vh 3vh;
+    padding: 1vh;
+    font-size: 0.8em;
+    font-weight: 900;
+    border-radius: 3vh;
+    background-color: #02ff2c;
+    transition: all 0.5s ease-in-out;
+    font-family: cursive;
+}
+
+.project-9 button:hover {
+    cursor: pointer;
+    box-shadow: 0vh 0vh 2vh blue;
+}
+
 
 #contact-me {
     /* border: red 2px solid; */
