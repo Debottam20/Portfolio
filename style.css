@@ -651,7 +651,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 20vh;
-    min-width: 45vh;
+    min-width: 39vh;
     height: auto;
     width: auto;
     border-radius: 2vh;
@@ -719,7 +719,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 20vh;
-    min-width: 45vh;
+    min-width: 39vh;
     height: auto;
     width: auto;
     border-radius: 2vh;
@@ -754,7 +754,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 20vh;
-    min-width: 40vh;
+    min-width: 39vh;
     height: auto;
     width: auto;
     border-radius: 2vh;
@@ -942,10 +942,4 @@ nav {
 .copy p {
     font-size: 1.6em;
     color: #ff00ff;
-}
-
-@media(max-width: 768px) {
-    .hero-text h1 {
-        font-size: 36px;
-    }
 }
